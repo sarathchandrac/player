@@ -1,6 +1,13 @@
+import SearchBar from "../../components/responsive/search_bar";
+import AddAppointment from "../../components/widgets/AddAppointment";
+
 const HomePage = () => {
     return (
-        <div >one</div>
+        <>
+            <SearchBar />
+            <AddAppointment />
+        </>
+        
     )
 }
 
